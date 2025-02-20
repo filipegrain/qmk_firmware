@@ -3,7 +3,8 @@
 #pragma once
 
 #define OLED_DISPLAY_128X32
-
+#define COMBO_COUNT 6  // Number of combos
+#define COMBO_TERM 50  // How long the keys must be held (in ms)
 #ifdef RGBLIGHT_ENABLE
 #define RGBLIGHT_EFFECT_BREATHING
 #define RGBLIGHT_EFFECT_RAINBOW_MOOD
