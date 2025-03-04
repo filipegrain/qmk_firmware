@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "",
+  "notes": "My awesome keymap",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "jorne/rev1",
   "keymap": "jorne_rev1_layout_2025-02-21",
@@ -123,7 +123,7 @@
       "KC_DOWN",
       "KC_UP",
       "KC_RGHT",
-      "KC_COPY",
+      "SS_MASTER",
       "RCTL_T(KC_APP)",
       "KC_TRNS",
       "KC_P0",
@@ -135,7 +135,7 @@
       "KC_PGDN",
       "KC_PGUP",
       "KC_END",
-      "KC_PSTE",
+      "KC_BSLS",
       "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
@@ -191,5 +191,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": ""
+  "author": "Anonymous"
 }
